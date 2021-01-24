@@ -3,10 +3,11 @@
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Atzori Riccardo</Authors>
-    <Company />
+    <Company>DotLog Contribuitors</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/riccardotzr/dotlog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <Version>1.0.0</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A .NET5 HTTP request and response logging library, based on Serilog.</Description>
   </PropertyGroup>
