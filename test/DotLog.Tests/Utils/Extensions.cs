@@ -16,13 +16,16 @@ namespace DotLog.Tests
 
         public static LogEvent ToTestEvent(this IEnumerable<LogEvent> events, string propertyKey)
         {
-            foreach (var @event in events)
+            if (events != null && events.Any())
             {
-                var properties = @event.Properties;
-
-                if (properties.ContainsKey(propertyKey))
+                foreach (var @event in events.ToList())
                 {
-                    return @event;
+                    var properties = @event.Properties;
+
+                    if (properties.ContainsKey(propertyKey))
+                    {
+                        return @event;
+                    }
                 }
             }
 
