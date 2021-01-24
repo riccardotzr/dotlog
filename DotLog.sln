@@ -5,11 +5,16 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7D6B94E9-5D8F-40F5-8719-027CDB11801F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotLog", "src\DotLog\DotLog.csproj", "{B6B01214-0212-4F59-AA1E-B8135332660A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotLog", "src\DotLog\DotLog.csproj", "{B6B01214-0212-4F59-AA1E-B8135332660A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{8B510FF3-1DA3-48B3-A7B1-6EDD53DED7D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotLog.Tests", "test\DotLog.Tests\DotLog.Tests.csproj", "{D433B536-0608-41AA-8B81-848CD8A08C66}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotLog.Tests", "test\DotLog.Tests\DotLog.Tests.csproj", "{D433B536-0608-41AA-8B81-848CD8A08C66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{16BAAE6D-8ABE-42FD-99E1-281BDA3B7020}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\release.yaml = .github\workflows\release.yaml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
