@@ -11,8 +11,8 @@
     <PackageVersion>1.0.0</PackageVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A .NET5 HTTP request and response logging library, based on Serilog.</Description>
-    <PackageId>DotLogTestPackage</PackageId>
-    <Product>DotLogTestPackage</Product>
+    <PackageId>DotLogNet</PackageId>
+    <Product>DotLogNet</Product>
   </PropertyGroup>
 
   <ItemGroup>
