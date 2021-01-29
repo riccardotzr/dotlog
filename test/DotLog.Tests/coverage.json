@@ -1,0 +1,796 @@
+{
+  "DotLog.dll": {
+    "C:\\projects\\dotlog\\src\\DotLog\\Formatter\\DotLogJsonFormatter.cs": {
+      "DotLog.DotLogJsonFormatter": {
+        "System.Void DotLog.DotLogJsonFormatter::Format(Serilog.Events.LogEvent,System.IO.TextWriter)": {
+          "Lines": {
+            "25": 22,
+            "27": 22,
+            "28": 22,
+            "31": 22,
+            "32": 22,
+            "35": 22,
+            "36": 22,
+            "38": 22,
+            "39": 8,
+            "40": 8,
+            "41": 8,
+            "43": 14,
+            "44": 14,
+            "45": 14,
+            "48": 22,
+            "49": 22,
+            "50": 22,
+            "53": 22,
+            "55": 22,
+            "56": 1,
+            "57": 1,
+            "58": 1,
+            "60": 21,
+            "61": 21,
+            "62": 21,
+            "65": 22,
+            "67": 22,
+            "68": 8,
+            "69": 8,
+            "72": 8,
+            "74": 66,
+            "75": 8,
+            "76": 8,
+            "78": 58,
+            "79": 8,
+            "80": 8,
+            "82": 82,
+            "83": 8,
+            "85": 8,
+            "86": 6,
+            "87": 6,
+            "88": 6,
+            "90": 2,
+            "91": 2,
+            "92": 2,
+            "94": 72,
+            "95": 8,
+            "97": 8,
+            "98": 7,
+            "99": 7,
+            "100": 7,
+            "102": 1,
+            "103": 1,
+            "104": 1,
+            "106": 85,
+            "107": 8,
+            "108": 8,
+            "110": 77,
+            "111": 8,
+            "112": 8,
+            "114": 87,
+            "115": 8,
+            "116": 8,
+            "118": 109,
+            "119": 8,
+            "120": 8,
+            "122": 8,
+            "125": 8,
+            "127": 8,
+            "128": 5,
+            "129": 5,
+            "131": 66,
+            "132": 5,
+            "133": 5,
+            "135": 67,
+            "136": 5,
+            "137": 5,
+            "139": 68,
+            "140": 5,
+            "141": 5,
+            "143": 5,
+            "144": 5,
+            "146": 8,
+            "149": 8,
+            "151": 86,
+            "152": 8,
+            "154": 8,
+            "155": 8,
+            "157": 8,
+            "158": 8,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "164": 90,
+            "165": 8,
+            "167": 8,
+            "168": 8,
+            "169": 8,
+            "170": 8,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "176": 76,
+            "177": 8,
+            "179": 8,
+            "180": 8,
+            "181": 8,
+            "182": 8,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "188": 8,
+            "190": 8,
+            "192": 22,
+            "193": 22,
+            "194": 22
+          },
+          "Branches": [
+            {
+              "Line": 38,
+              "Offset": 101,
+              "EndOffset": 103,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 8
+            },
+            {
+              "Line": 38,
+              "Offset": 101,
+              "EndOffset": 125,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            },
+            {
+              "Line": 55,
+              "Offset": 203,
+              "EndOffset": 205,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 55,
+              "Offset": 203,
+              "EndOffset": 227,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 21
+            },
+            {
+              "Line": 67,
+              "Offset": 265,
+              "EndOffset": 270,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 8
+            },
+            {
+              "Line": 85,
+              "Offset": 527,
+              "EndOffset": 529,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 6
+            },
+            {
+              "Line": 85,
+              "Offset": 527,
+              "EndOffset": 547,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 2
+            },
+            {
+              "Line": 97,
+              "Offset": 635,
+              "EndOffset": 637,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 7
+            },
+            {
+              "Line": 97,
+              "Offset": 635,
+              "EndOffset": 655,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 127,
+              "Offset": 1023,
+              "EndOffset": 1028,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 5
+            },
+            {
+              "Line": 127,
+              "Offset": 1023,
+              "EndOffset": 1276,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 8
+            },
+            {
+              "Line": 154,
+              "Offset": 1374,
+              "EndOffset": 1376,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 8
+            },
+            {
+              "Line": 154,
+              "Offset": 1374,
+              "EndOffset": 1394,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 167,
+              "Offset": 1482,
+              "EndOffset": 1484,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 8
+            },
+            {
+              "Line": 167,
+              "Offset": 1482,
+              "EndOffset": 1502,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 179,
+              "Offset": 1590,
+              "EndOffset": 1592,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 8
+            },
+            {
+              "Line": 179,
+              "Offset": 1590,
+              "EndOffset": 1610,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 67,
+              "Offset": 265,
+              "EndOffset": 1637,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 22
+            }
+          ]
+        },
+        "System.Void DotLog.DotLogJsonFormatter::.ctor()": {
+          "Lines": {
+            "19": 12,
+            "20": 12,
+            "21": 12,
+            "22": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\projects\\dotlog\\src\\DotLog\\Middleware\\LoggingMiddleware.cs": {
+      "DotLog.LoggingMiddleware": {
+        "System.String DotLog.LoggingMiddleware::GetOrCreateCorrelationId(Microsoft.AspNetCore.Http.HttpRequest)": {
+          "Lines": {
+            "158": 3,
+            "159": 3,
+            "160": 3,
+            "162": 3,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "168": 3,
+            "169": 3
+          },
+          "Branches": [
+            {
+              "Line": 160,
+              "Offset": 21,
+              "EndOffset": 23,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 160,
+              "Offset": 21,
+              "EndOffset": 26,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 162,
+              "Offset": 46,
+              "EndOffset": 48,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 162,
+              "Offset": 46,
+              "EndOffset": 94,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.String DotLog.LoggingMiddleware::RemovePort(System.String)": {
+          "Lines": {
+            "191": 3,
+            "192": 3,
+            "193": 0,
+            "194": 0,
+            "197": 3,
+            "198": 3,
+            "199": 3
+          },
+          "Branches": [
+            {
+              "Line": 192,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 192,
+              "Offset": 9,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void DotLog.LoggingMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,Microsoft.Extensions.Logging.ILogger`1<DotLog.LoggingMiddleware>)": {
+          "Lines": {
+            "32": 3,
+            "33": 3,
+            "34": 3,
+            "35": 3,
+            "36": 3,
+            "37": 3
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 35,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            }
+          ]
+        },
+        "System.Void DotLog.LoggingMiddleware::.ctor(Microsoft.AspNetCore.Http.RequestDelegate,DotLog.LoggingMiddlewareOptions,Microsoft.Extensions.Logging.ILogger`1<DotLog.LoggingMiddleware>)": {
+          "Lines": {
+            "45": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1,
+            "50": 1,
+            "51": 1
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 11,
+              "EndOffset": 13,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 11,
+              "EndOffset": 25,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 48,
+              "Offset": 33,
+              "EndOffset": 35,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 33,
+              "EndOffset": 47,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 49,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 55,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "DotLog.LoggingMiddleware/<InvokeAsync>d__9": {
+        "System.Void DotLog.LoggingMiddleware/<InvokeAsync>d__9::MoveNext()": {
+          "Lines": {
+            "55": 4,
+            "56": 4,
+            "58": 4,
+            "59": 1,
+            "60": 1,
+            "61": 1,
+            "63": 3,
+            "64": 3,
+            "65": 3,
+            "67": 3,
+            "69": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3,
+            "74": 3,
+            "76": 3,
+            "77": 3,
+            "78": 4
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 93,
+              "EndOffset": 95,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 116,
+              "EndOffset": 118,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 93,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 58,
+              "Offset": 116,
+              "EndOffset": 147,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 3
+            },
+            {
+              "Line": 58,
+              "Offset": 150,
+              "EndOffset": 152,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 58,
+              "Offset": 150,
+              "EndOffset": 272,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "DotLog.LoggingMiddleware/<LogIncomingRequest>d__10": {
+        "System.Void DotLog.LoggingMiddleware/<LogIncomingRequest>d__10::MoveNext()": {
+          "Lines": {
+            "81": 3,
+            "82": 3,
+            "84": 3,
+            "85": 3,
+            "87": 3,
+            "88": 1,
+            "89": 1,
+            "90": 1,
+            "92": 3,
+            "93": 3,
+            "94": 3,
+            "95": 3,
+            "97": 3,
+            "98": 3,
+            "99": 3,
+            "100": 3,
+            "101": 3,
+            "102": 3,
+            "103": 3,
+            "104": 3,
+            "105": 3,
+            "106": 3,
+            "107": 3,
+            "108": 3,
+            "109": 3,
+            "111": 3,
+            "112": 3,
+            "113": 3,
+            "114": 3,
+            "116": 3
+          },
+          "Branches": [
+            {
+              "Line": 87,
+              "Offset": 93,
+              "EndOffset": 98,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 93,
+              "EndOffset": 229,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            },
+            {
+              "Line": 101,
+              "Offset": 506,
+              "EndOffset": 508,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 101,
+              "Offset": 506,
+              "EndOffset": 511,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 102,
+              "Offset": 545,
+              "EndOffset": 547,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 3
+            },
+            {
+              "Line": 102,
+              "Offset": 545,
+              "EndOffset": 561,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            },
+            {
+              "Line": 102,
+              "Offset": 559,
+              "EndOffset": 561,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 102,
+              "Offset": 559,
+              "EndOffset": 564,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 108,
+              "Offset": 803,
+              "EndOffset": 805,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 803,
+              "EndOffset": 808,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 3
+            },
+            {
+              "Line": 109,
+              "Offset": 847,
+              "EndOffset": 849,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 847,
+              "EndOffset": 852,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 3
+            }
+          ]
+        }
+      },
+      "DotLog.LoggingMiddleware/<LogCompletedRequest>d__11": {
+        "System.Void DotLog.LoggingMiddleware/<LogCompletedRequest>d__11::MoveNext()": {
+          "Lines": {
+            "119": 3,
+            "120": 3,
+            "122": 3,
+            "123": 3,
+            "125": 3,
+            "127": 3,
+            "128": 3,
+            "129": 3,
+            "131": 3,
+            "132": 3,
+            "133": 3,
+            "135": 3,
+            "137": 3,
+            "138": 3,
+            "140": 3,
+            "141": 3,
+            "143": 3,
+            "144": 3,
+            "145": 3,
+            "146": 3,
+            "149": 3,
+            "150": 3,
+            "151": 3,
+            "152": 3,
+            "154": 3,
+            "155": 3
+          },
+          "Branches": [
+            {
+              "Line": 135,
+              "Offset": 181,
+              "EndOffset": 183,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 135,
+              "Offset": 181,
+              "EndOffset": 196,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "DotLog.LoggingMiddleware/<GetRequestBody>d__13": {
+        "System.Void DotLog.LoggingMiddleware/<GetRequestBody>d__13::MoveNext()": {
+          "Lines": {
+            "172": 1,
+            "173": 1,
+            "175": 1,
+            "177": 1,
+            "178": 1,
+            "179": 1,
+            "181": 1,
+            "182": 1,
+            "184": 1,
+            "185": 1,
+            "187": 1,
+            "188": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\projects\\dotlog\\src\\DotLog\\Middleware\\LoggingMiddlewareOptions.cs": {
+      "DotLog.LoggingMiddlewareOptions": {
+        "System.Collections.Generic.List`1<System.String> DotLog.LoggingMiddlewareOptions::get_RoutesToBeExcluded()": {
+          "Lines": {
+            "17": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\projects\\dotlog\\src\\DotLog\\HostBuilderExtensions.cs": {
+      "Microsoft.Extensions.Hosting.HostBuilderExtensions": {
+        "Microsoft.Extensions.Hosting.IHostBuilder Microsoft.Extensions.Hosting.HostBuilderExtensions::UseDotLog(Microsoft.Extensions.Hosting.IHostBuilder)": {
+          "Lines": {
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\projects\\dotlog\\src\\DotLog\\ApplicationBuilderExtensions.cs": {
+      "Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions": {
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions::UseLoggingMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder)": {
+          "Lines": {
+            "22": 3,
+            "23": 3,
+            "24": 3,
+            "25": 3
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Builder.IApplicationBuilder Microsoft.AspNetCore.Builder.ApplicationBuilderExtensions::UseLoggingMiddleware(Microsoft.AspNetCore.Builder.IApplicationBuilder,DotLog.LoggingMiddlewareOptions)": {
+          "Lines": {
+            "34": 1,
+            "35": 1,
+            "36": 1,
+            "37": 1
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
