@@ -28,7 +28,7 @@ jobs:
       run: dotnet build --configuration Release --no-restore
       
     - name: Test
-      run: dotnet test --no-restore --verbosity normal /p:CollectCoverage=true
+      run: dotnet test --no-restore --verbosity normal /p:CollectCoverage=true /p:CoverletOutputFormat=lcov
 
     - name: Coveralls
       uses: coverallsapp/github-action@master
