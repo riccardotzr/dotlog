@@ -22,14 +22,23 @@ Install-Package DotLogNet
 The simplest way to set up DotLog is configure the extension method in your application's _Program.cs_.
 
 ```csharp
+using DotLog;
 
-public static IHostBuilder CreateHostBuilder(string[] args) =>
-    Host.CreateDefaultBuilder(args)
-        .ConfigureWebHostDefaults(webBuilder =>
-        {
-            webBuilder.UseStartup<Startup>();
-        });
-        .UseDotLog();
+public class Program 
+{
+    public stati void Main(string[] args) 
+    {
+        CreateHostBuilder(args).Build().Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
+            .UseDotLog();
+}
 
 ```
 By default the log level is set to "Information" and the only sink configured is the Console sink. This is because the library is designed to be used in cloud environments, like Kubernetes, in combination with [FluentBit](https://fluentbit.io/) and [Fluentd](https://www.fluentd.org/).
