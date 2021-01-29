@@ -29,3 +29,8 @@ jobs:
       
     - name: Test
       run: dotnet test --no-restore --verbosity normal
+
+    - name: Coveralls
+      uses: coverallsapp/github-action@master
+      with:
+        github-token: ${{ secrets.COVERALLS_TOKEN }}
