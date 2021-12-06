@@ -1,14 +1,14 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <Authors>Atzori Riccardo</Authors>
     <Company>DotLog Contribuitors</Company>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <RepositoryUrl>https://github.com/riccardotzr/dotlog</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
-    <Version>1.0.0</Version>
-    <PackageVersion>1.0.0</PackageVersion>
+    <Version>2.0.0</Version>
+    <PackageVersion>2.0.0</PackageVersion>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Description>A .NET5 HTTP request and response logging library, based on Serilog.</Description>
     <PackageId>DotLogNet</PackageId>
@@ -16,9 +16,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="6.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="5.0.0" />
     <PackageReference Include="Serilog" Version="2.10.0" />
-    <PackageReference Include="Serilog.AspNetCore" Version="4.1.0" />
+    <PackageReference Include="Serilog.AspNetCore" Version="3.4.0" />
   </ItemGroup>
 
   <ItemGroup>

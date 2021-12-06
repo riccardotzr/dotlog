@@ -1,7 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
@@ -23,7 +22,7 @@ namespace DotLog
         private readonly RequestDelegate _next;
         private readonly LoggingMiddlewareOptions _options;
         private readonly ILogger<LoggingMiddleware> _logger;
-        private readonly ConcurrentDictionary<string, object> _loggingDictionary;
+        private readonly Dictionary<string, object> _loggingDictionary;
 
         /// <summary>
         /// 
@@ -34,7 +33,7 @@ namespace DotLog
         {
             _next = next ?? throw new ArgumentNullException(nameof(next));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _loggingDictionary = new ConcurrentDictionary<string, object>();
+            _loggingDictionary = new Dictionary<string, object>();
         }
 
         /// <summary>
@@ -48,7 +47,7 @@ namespace DotLog
             _next = next ?? throw new ArgumentNullException(nameof(next));
             _options = options ?? throw new ArgumentNullException(nameof(options));
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _loggingDictionary = new ConcurrentDictionary<string, object>();
+            _loggingDictionary = new Dictionary<string, object>();
         }
 
         ///<inheritdoc/>
@@ -95,19 +94,19 @@ namespace DotLog
             var userAgent = request.Headers[UserAgentHeaderKey].ToString();
             var correlationId = GetOrCreateCorrelationId(request);
 
-            _loggingDictionary.TryAdd("HasHttpRequest", true);
-            _loggingDictionary.TryAdd("CorrelationId", correlationId);
-            _loggingDictionary.TryAdd("Method", request.Method.ToString());
-            _loggingDictionary.TryAdd("Url", request.Path);
-            _loggingDictionary.TryAdd("RequestBody", (hasBody) ? body : null);
-            _loggingDictionary.TryAdd("Query", (query != null && query.Count > 0) ? query : null);
-            _loggingDictionary.TryAdd("Scheme", request.Scheme);
-            _loggingDictionary.TryAdd("ContentType", request.ContentType);
-            _loggingDictionary.TryAdd("Protocol", request.Protocol);
-            _loggingDictionary.TryAdd("Ip", httpContext.Connection.RemoteIpAddress.MapToIPv4().ToString());
-            _loggingDictionary.TryAdd("Hostname", RemovePort(request.Host.ToString()));
-            _loggingDictionary.TryAdd("ForwardedHostname", (!string.IsNullOrEmpty(forwardedHostname)) ? forwardedHostname : null);
-            _loggingDictionary.TryAdd("UserAgent", (!string.IsNullOrEmpty(userAgent)) ? userAgent : null);
+            _loggingDictionary.Add("HasHttpRequest", true);
+            _loggingDictionary.Add("CorrelationId", correlationId);
+            _loggingDictionary.Add("Method", request.Method.ToString());
+            _loggingDictionary.Add("Url", request.Path);
+            _loggingDictionary.Add("RequestBody", (hasBody) ? body : null);
+            _loggingDictionary.Add("Query", (query != null && query.Count > 0) ? query : null);
+            _loggingDictionary.Add("Scheme", request.Scheme);
+            _loggingDictionary.Add("ContentType", request.ContentType);
+            _loggingDictionary.Add("Protocol", request.Protocol);
+            _loggingDictionary.Add("Ip", httpContext.Connection.RemoteIpAddress.MapToIPv4().ToString());
+            _loggingDictionary.Add("Hostname", RemovePort(request.Host.ToString()));
+            _loggingDictionary.Add("ForwardedHostname", (!string.IsNullOrEmpty(forwardedHostname)) ? forwardedHostname : null);
+            _loggingDictionary.Add("UserAgent", (!string.IsNullOrEmpty(userAgent)) ? userAgent : null);
 
             using (_logger.BeginScope(_loggingDictionary))
             {
@@ -141,10 +140,10 @@ namespace DotLog
             responseTimeWatch.Stop();
             var passedMicroSeconds = responseTimeWatch.ElapsedMilliseconds / 1000m;
 
-            _loggingDictionary.TryAdd("HasHttpResponse", true);
-            _loggingDictionary.TryAdd("StatusCode", httpContext.Response.StatusCode);
-            _loggingDictionary.TryAdd("ResponseTime", passedMicroSeconds);
-            _loggingDictionary.TryAdd("ResponseBytes", responseBytes);
+            _loggingDictionary.Add("HasHttpResponse", true);
+            _loggingDictionary.Add("StatusCode", httpContext.Response.StatusCode);
+            _loggingDictionary.Add("ResponseTime", passedMicroSeconds);
+            _loggingDictionary.Add("ResponseBytes", responseBytes);
 
 
             using (_logger.BeginScope(_loggingDictionary))
