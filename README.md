@@ -8,7 +8,7 @@
 
 </div>
 
-A .NET 5 Request and Response logging library. It uses [Serilog](https://github.com/serilog/serilog) library and implements a middleware to be used with .NET Core.
+A .NET 6 Request and Response logging library. It uses [Serilog](https://github.com/serilog/serilog) library and implements a middleware to be used with .NET Core.
 
 ## Install
 DotLog is installed from NuGet.
